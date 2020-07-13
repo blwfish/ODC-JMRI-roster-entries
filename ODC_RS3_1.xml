@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 4.18+R37ad3d0 on Sun Jul 12 11:41:42 EDT 2020-->
+  <!--Written by JMRI version 4.18+R37ad3d0 on Sun Jul 12 15:26:40 EDT 2020-->
   <locomotive id="ODC-RS3-1" fileName="ODC_RS3_1.xml" roadNumber="8438" roadName="CP" mfg="Bachmann" owner="ODC" model="RS3" dccAddress="8438" comment="Mostly as configured when received. (Changed long address.)" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2020-07-12T15:41:42.964+0000</dateUpdated>
+    <dateUpdated>2020-07-12T19:26:40.297+0000</dateUpdated>
     <decoder model="Alco RS3" family="Tsunami Diesel Bachmann Sound Value" comment="" />
     <locoaddress>
       <dcclocoaddress number="8438" longaddress="yes" />
@@ -22,8 +22,8 @@
     <values>
       <decoderDef>
         <varValue item="Start Voltage" value="0" />
-        <varValue item="Acceleration Rate (0-255)" value="6" />
-        <varValue item="Braking Rate (0-255)" value="5" />
+        <varValue item="Acceleration Rate (0-255)" value="0" />
+        <varValue item="Braking Rate (0-255)" value="0" />
         <varValue item="Max Voltage" value="0" />
         <varValue item="Mid Voltage" value="0" />
         <varValue item="BEMF Cutout (0-127 or 128-255)" value="0" />
@@ -113,12 +113,12 @@
         <varValue item="F4 controls output Short Horn" value="0" />
         <varValue item="F4 controls output Fans" value="0" />
         <varValue item="F4 controls output Dimming" value="0" />
-        <varValue item="Headlight F0(f) Effect Selection" value="14" />
+        <varValue item="Headlight F0(f) Effect Selection" value="1" />
         <varValue item="Headlight F0(f) Phase Selection" value="0" />
         <varValue item="Headlight F0(f) Grade Crossing Logic" value="0" />
         <varValue item="Headlight F0(f) Rule 17 Mode" value="0" />
         <varValue item="Headlight F0(f) Light Type" value="1" />
-        <varValue item="Backup Light F0(r) Effect Selection" value="13" />
+        <varValue item="Backup Light F0(r) Effect Selection" value="1" />
         <varValue item="Backup Light F0(r) Phase Selection" value="0" />
         <varValue item="Backup Light F0(r) Grade Crossing Logic" value="0" />
         <varValue item="Backup Light F0(r) Rule 17 Mode" value="0" />
@@ -162,11 +162,11 @@
         <varValue item="Manufacturer Version No: " value="82" />
         <varValue item="Manufacturer ID: " value="141" />
         <varValue item="Locomotive Direction In Consist" value="0" />
-        <varValue item="Advanced Consist Address" value="0" />
+        <varValue item="Advanced Consist Address" value="10" />
         <varValue item="Locomotive Direction" value="1" />
         <varValue item="Speed Steps" value="1" />
         <varValue item="Power Source Conversion" value="0" />
-        <varValue item="Use Speed Table" value="0" />
+        <varValue item="Use Speed Table" value="1" />
         <varValue item="F5 controls output Bell" value="0" />
         <varValue item="F5 controls output FX5" value="0" />
         <varValue item="F5 controls output FX6" value="0" />
@@ -251,13 +251,13 @@
         <varValue item="F8 controls output Fans" value="0" />
         <varValue item="F8 controls output Dimming" value="0" />
         <varValue item="F8 controls output Mute" value="0" />
-        <varValue item="Speed Table" value="0,2,12,22,32,41,51,61,70,80,90,100,109,119,129,138,148,158,168,177,187,197,206,216,226,236,245,255" />
+        <varValue item="Speed Table" value="0,9,18,28,37,47,56,66,75,85,94,103,113,122,132,141,151,160,170,179,188,198,207,217,226,236,245,255" />
         <varValue item="User ID #1 - firmware version" value="2" />
         <varValue item="User ID #2 - default CV set" value="10" />
       </decoderDef>
       <CVvalue name="2" value="0" />
-      <CVvalue name="3" value="6" />
-      <CVvalue name="4" value="5" />
+      <CVvalue name="3" value="0" />
+      <CVvalue name="4" value="0" />
       <CVvalue name="5" value="0" />
       <CVvalue name="6" value="0" />
       <CVvalue name="10" value="0" />
@@ -279,8 +279,8 @@
       <CVvalue name="36" value="4" />
       <CVvalue name="37" value="16" />
       <CVvalue name="38" value="0" />
-      <CVvalue name="49" value="142" />
-      <CVvalue name="50" value="141" />
+      <CVvalue name="49" value="129" />
+      <CVvalue name="50" value="129" />
       <CVvalue name="59" value="4" />
       <CVvalue name="60" value="4" />
       <CVvalue name="63" value="35" />
@@ -309,10 +309,10 @@
       <CVvalue name="1" value="3" />
       <CVvalue name="17" value="224" />
       <CVvalue name="18" value="246" />
-      <CVvalue name="29" value="35" />
+      <CVvalue name="29" value="51" />
       <CVvalue name="7" value="82" />
       <CVvalue name="8" value="141" />
-      <CVvalue name="19" value="0" />
+      <CVvalue name="19" value="10" />
       <CVvalue name="39" value="0" />
       <CVvalue name="40" value="0" />
       <CVvalue name="41" value="16" />
@@ -322,29 +322,29 @@
       <CVvalue name="45" value="0" />
       <CVvalue name="46" value="0" />
       <CVvalue name="67" value="0" />
-      <CVvalue name="68" value="2" />
-      <CVvalue name="69" value="12" />
-      <CVvalue name="70" value="22" />
-      <CVvalue name="71" value="32" />
-      <CVvalue name="72" value="41" />
-      <CVvalue name="73" value="51" />
-      <CVvalue name="74" value="61" />
-      <CVvalue name="75" value="70" />
-      <CVvalue name="76" value="80" />
-      <CVvalue name="77" value="90" />
-      <CVvalue name="78" value="100" />
-      <CVvalue name="79" value="109" />
-      <CVvalue name="80" value="119" />
-      <CVvalue name="81" value="129" />
-      <CVvalue name="82" value="138" />
-      <CVvalue name="83" value="148" />
-      <CVvalue name="84" value="158" />
-      <CVvalue name="85" value="168" />
-      <CVvalue name="86" value="177" />
-      <CVvalue name="87" value="187" />
-      <CVvalue name="88" value="197" />
-      <CVvalue name="89" value="206" />
-      <CVvalue name="90" value="216" />
+      <CVvalue name="68" value="9" />
+      <CVvalue name="69" value="18" />
+      <CVvalue name="70" value="28" />
+      <CVvalue name="71" value="37" />
+      <CVvalue name="72" value="47" />
+      <CVvalue name="73" value="56" />
+      <CVvalue name="74" value="66" />
+      <CVvalue name="75" value="75" />
+      <CVvalue name="76" value="85" />
+      <CVvalue name="77" value="94" />
+      <CVvalue name="78" value="103" />
+      <CVvalue name="79" value="113" />
+      <CVvalue name="80" value="122" />
+      <CVvalue name="81" value="132" />
+      <CVvalue name="82" value="141" />
+      <CVvalue name="83" value="151" />
+      <CVvalue name="84" value="160" />
+      <CVvalue name="85" value="170" />
+      <CVvalue name="86" value="179" />
+      <CVvalue name="87" value="188" />
+      <CVvalue name="88" value="198" />
+      <CVvalue name="89" value="207" />
+      <CVvalue name="90" value="217" />
       <CVvalue name="91" value="226" />
       <CVvalue name="92" value="236" />
       <CVvalue name="93" value="245" />
@@ -353,5 +353,5 @@
       <CVvalue name="106" value="10" />
     </values>
   </locomotive>
-  <!--Written by JMRI version 4.18+R37ad3d0 on Sun Jul 12 11:46:44 EDT 2020-->
+  <!--Written by JMRI version 4.18+R37ad3d0 on Mon Jul 13 08:54:14 EDT 2020-->
 </locomotive-config>
