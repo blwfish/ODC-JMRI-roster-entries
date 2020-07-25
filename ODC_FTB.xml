@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 4.18+R37ad3d0 on Sat Jul 25 17:42:28 EDT 2020-->
-  <locomotive id="ODC-FTB" fileName="ODC_FTB.xml" roadNumber="9998" roadName="Seaboard Air Line" mfg="Bachmann" owner="ODC" model="FT-B" dccAddress="9998" comment="Defaults as received from ODC" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2020-07-25T21:42:28.763+0000</dateUpdated>
+  <!--Written by JMRI version 4.18+R37ad3d0 on Sat Jul 25 17:56:45 EDT 2020-->
+  <locomotive id="ODC-FTB" fileName="ODC_FTB.xml" roadNumber="4000B" roadName="Seaboard Air Line" mfg="Bachmann" owner="ODC" model="FT-B" dccAddress="9998" comment="Defaults as received from ODC" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+    <dateUpdated>2020-07-25T21:56:45.560+0000</dateUpdated>
     <decoder model="4 function decoder (36-550)" family="E-Z Command decoders" comment="" />
     <locoaddress>
       <dcclocoaddress number="9998" longaddress="yes" />
@@ -59,8 +59,8 @@
         <varValue item="Address Format" value="1" />
         <varValue item="Manufacturer Version No: " value="46" />
         <varValue item="Manufacturer ID: " value="101" />
-        <varValue item="Locomotive Direction In Consist" value="0" />
-        <varValue item="Advanced Consist Address" value="0" />
+        <varValue item="Locomotive Direction In Consist" value="1" />
+        <varValue item="Advanced Consist Address" value="11" />
         <varValue item="Locomotive Direction" value="0" />
         <varValue item="Speed Steps" value="1" />
         <varValue item="Power Source Conversion" value="0" />
@@ -89,7 +89,7 @@
       <CVvalue name="29" value="34" />
       <CVvalue name="7" value="46" />
       <CVvalue name="8" value="101" />
-      <CVvalue name="19" value="0" />
+      <CVvalue name="19" value="139" />
       <CVvalue name="105" value="255" />
       <CVvalue name="106" value="255" />
       <CVvalue name="67" value="255" />
@@ -122,5 +122,5 @@
       <CVvalue name="94" value="255" />
     </values>
   </locomotive>
-  <!--Written by JMRI version 4.18+R37ad3d0 on Sat Jul 25 17:42:56 EDT 2020-->
+  <!--Written by JMRI version 4.18+R37ad3d0 on Sat Jul 25 18:00:41 EDT 2020-->
 </locomotive-config>
